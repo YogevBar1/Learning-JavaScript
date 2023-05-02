@@ -11,16 +11,22 @@
 
 
 
-let num =+ prompt(`Insert number`);
-let digitSum = 0 , countDigit =0;
+let num = + prompt(`Insert number`);
+let digitSum = 0, countDigit = 0;
 
-
-while(num > 0)
-{
-    digitSum = digitSum + (num % 10);
-    num = Math.floor(num / 10);
-    countDigit++;
+if (num === 0) {
+    document.write(`The sum of digits = 0<br>`);
+    document.write(`The count of digits =1`);
 }
 
-document.write(`The sum of digits = ${digitSum}<br>`);
-document.write(`The count of digits = ${countDigit}`);
+else {
+
+    while (num !== 0) {
+        digitSum = digitSum + (num % 10);
+        num = parseInt(num / 10);
+        countDigit++;
+    }
+
+    document.write(`The sum of digits = ${digitSum}<br>`);
+    document.write(`The count of digits = ${countDigit}`);
+}
