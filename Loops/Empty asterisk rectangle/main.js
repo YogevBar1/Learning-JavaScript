@@ -29,3 +29,18 @@ for (let i = 1; i <= height - 2; i++) {
 if (height > 1)
     for (let i = 1; i <= width; i++)
         document.write("* ");
+
+
+
+document.write("<br><hr>");
+//second soultion:
+
+for(let i = 1; i<= height;i++){
+
+    for(let j =1; j<=width;j++)
+    {
+        const text = (i=== 1 || i === height || j ===1 || j ===width) ? "* " : "&nbsp;&nbsp;&nbsp;";
+            document.write(text);
+    }
+    document.write("<br>");
+}

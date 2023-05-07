@@ -1,0 +1,24 @@
+[
+    {
+        "name" : "Apple",
+        "price" : 3.5,
+        "discount" : 0.3,
+        "available": true
+    },
+
+    {
+        "name" : "Banana",
+        "price" : 4.7,
+        "discount" : 0.2,
+        "available": true
+    },
+
+    {
+        "name" : "Peach",
+        "price" : 2.5,
+        "discount" : 0.25,
+        "available": false
+    }
+
+]
+

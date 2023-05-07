@@ -1,0 +1,6 @@
+{
+    "firstName" : "Bart",
+    "lastName" : "Simpson" , 
+    "age": 12,
+    "isAdmin": true
+}
