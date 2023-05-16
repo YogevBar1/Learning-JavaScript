@@ -17,11 +17,11 @@ for (let i = 1; i <= num; i++) {
         document.write("&nbsp;");
     }
 
-    for (let k = 1; k <= i; k++)
-        document.write(k + " ");
+    for (let j = 1; j <= i; j++)
+        document.write(j + " ");
 
-    for (let k = i -1 ; k >= 1; k--)
-        document.write(k + " ");
+    for (let j = i -1 ; j >= 1; j--)
+        document.write(j + " ");
 
 
     document.write("<br>");

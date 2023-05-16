@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <label>City</label>
+    <input type="text" id="city"></input>
+    <br><br>
+    <label>Street</label>
+    <input type="text" id="street"></input>
+    <br><br>
+    <label>House Number</label>
+    <input type="text" id="houseNumber"></input>
+    <br><br>
+    <label>Postal Code</label>
+    <input type="text" id="postalCode"></input>
+
+    <button onclick="saveToLocalStorage()">Save</button>
+    <button onclick="loadFromStorage()">Load</button>
+    <br><br>
+    <span id ="errors"></span>
+    
+</body>
+</html>

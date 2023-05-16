@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <h1>The cool shop of Animels!!</h1>
+    <br>
+    <hr>
+    <div class="center">
+        <a href="index.html">Home</a>
+        <a href="contact-us.html">contact-us</a>
+        <a href="animels.html">Animels</a>
+    </div>
+    <h3>Conact us:</h3>
+    <form id="myForm" action ="save.html" method="get" onsubmit="validtion()" >
+        <table>
+            <tr>
+                <td><label>First Name:</label>
+                    <input type="text" name="first Name" id="firstName">
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td><label>Last Name:</label>
+                    <input type="text" name="last Name" id="lastName">
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td><label>Gender:</label></td>
+            </tr>
+            <tr>
+                <td>
+                    
+
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+                <td><label>City:</label>
+                    <select name="select city...">
+                        <option>Select city...</option>
+                        <option>Tel Aviv</option>
+                        <option>Jureslam</option>
+                        <option>Modiin</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <label>Maasage:</label>
+                    <br>
+
+                    <textarea name="message" rows="5" id="msg"></textarea>
+
+                </td>
+            </tr>
+            <tr>
+               <td> <button>Send</button></td>
+               <td>  <button type="button" onclick="clearForm()">Clear Form</button>
+                <script>
+                    function clearForm() {
+                      document.getElementById("myForm").reset();
+                    }
+                    </script>  
+            
+            </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+    <span class="center">copyrigths</span>
+
+    
+</body>
+
+</html>
