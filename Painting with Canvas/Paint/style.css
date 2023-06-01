@@ -1,0 +1,22 @@
+canvas{
+    border: 5px solid;
+    margin-left: 30px;
+
+}
+
+button{
+    height: 30px;
+    width: 30px;
+}
+
+.red{ background-color: red;}
+
+.green{ background-color: green;}
+
+.yellow{ background-color: yellow;}
+
+.blue{ background-color: blue;}
+
+.pink{ background-color: pink;}
+
+.turquoise{ background-color: turquoise;}
