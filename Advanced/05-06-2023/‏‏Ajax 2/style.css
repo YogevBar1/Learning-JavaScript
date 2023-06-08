@@ -1,0 +1,24 @@
+table, td,th{
+    border: 1px, solid;
+    margin: auto;
+    border-color: blue;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr :nth-child(even){
+    background-color: lightblue;
+}
+
+tr :nth-child(odd){
+    background-color: lightyellow;
+}
+
+
+
+.thumbnail{
+    width:100px;
+    border: 1px solid;
+
+}
+
