@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    background-color: mediumpurple;
+    margin: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
